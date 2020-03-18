@@ -29,6 +29,10 @@ If you're looking for a mesh connection to API service or else ...
             'https://localhost:1500/api',
             'https://localhost:1600/api'
          ] );
+    //
+    //  Your logics ...
+    //
+    
     return random();
   }
   
