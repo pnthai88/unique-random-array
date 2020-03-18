@@ -1,5 +1,7 @@
 # unique-random-array
-Get an item from Array randomly, the next time won't be same the previous. 
+Get an item randomly from Array , the next time it will pick the other that won't be same the previous. After loop whole the round, the counter will reset to begin.
+
+===================================================
 
 
   const uniqueRandomArray = require('unique-random-array');
