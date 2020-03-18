@@ -4,8 +4,15 @@ Get an item randomly from Array , the next time it will pick the other that won'
 ===================================================
 
 
+```javascript
   const uniqueRandomArray = require('unique-random-array');
   
   const random = uniqueRandomArray( ['hello', 'hi', 'morning', 1, 2, 3, 4, 5] );
   
   console.log(random(), random(), random(), random());
+```
+
+===================================================
+
+![Example img](/unique.PNG)
+Format: ![Exp](url)
