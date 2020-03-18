@@ -15,4 +15,3 @@ Get an item randomly from Array , the next time it will pick the other that won'
 ===================================================
 
 ![Example img](/unique.PNG)
-Format: ![Exp](url)
