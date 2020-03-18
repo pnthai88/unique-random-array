@@ -22,13 +22,14 @@ If you're looking for a mesh connection to API service or else ...
   const uniqueRandomArray = require('unique-random-array');
   
   function get_server() {
-    return random = uniqueRandomArray( [
+    const random = uniqueRandomArray( [
             'https://localhost:1200/api', 
             'https://localhost:1300/api', 
             'https://localhost:1400/api',
             'https://localhost:1500/api',
             'https://localhost:1600/api'
          ] );
+    return random();
   }
   
   const choose_server = get_server();
